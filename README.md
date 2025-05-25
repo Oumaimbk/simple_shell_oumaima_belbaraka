@@ -66,8 +66,7 @@ make
 # Run the shell
 ./simple_shell
 
-
-
+``` 
 ## 🖥️ Example Usage
 
 ![image](https://github.com/user-attachments/assets/ad5745f0-f702-4fb5-987c-3fc9fa47268c)
