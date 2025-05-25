@@ -17,14 +17,15 @@ This project allows users to run commands, navigate directories, and understand 
 
 ## 🧠 Project Overview
 
-**Simple Shell** est un interpréteur de commandes Unix minimaliste développé entièrement en langage C dans le cadre d’un projet universitaire de systèmes d’exploitation.
+**Simple Shell** is a minimal UNIX command-line interpreter developed in C as part of a systems programming project.
 
-Ce shell permet d’exécuter des commandes de base, de gérer des processus via `fork`, `execvp` et `wait`, et d'intégrer quelques commandes internes. Il a été conçu pour comprendre le fonctionnement interne d’un shell Unix tout en développant des compétences pratiques en programmation système.
+This shell executes basic commands, handles processes using `fork`, `execvp`, and `wait`, and integrates a few built-in commands.  
+It was designed to understand the inner workings of a UNIX shell while improving system programming skills.
 
-Ce projet met l’accent sur :
-- La gestion de processus bas-niveau
-- La compréhension du comportement d’un shell
-- L’interaction avec le système via les appels système C
+This project focuses on:
+- Low-level process management
+- Shell behavior and terminal interaction
+- System calls in C (process, I/O, signals)
 
 
 ## ⚙️ Features
@@ -81,17 +82,6 @@ This project was built as part of a systems programming course and helped me:
 - Manage processes and signals from a C program
 - Improve my skills in C programming and terminal I/O
 - Gain experience with Makefiles and project structuring in Linux
-
-## ⛔ Limitations
-
-The current version of **Oumaima Shell** is a basic prototype and does not yet support:
-
-- Command chaining using `;`
-- Pipes (`|`) between commands
-- Input/output redirection (`>`, `<`, `>>`)
-- Logical operators (`&&`, `||`)
-- Environment variable expansion (`$HOME`, `$PATH`, etc.)
-- Running commands in the background (`&`)
 
 
 ## 🚀 Future Improvements
